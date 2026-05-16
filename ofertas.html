@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ofertas | Zapatillas Urbanas</title>
+
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        header{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav{
+            background-color: #222;
+            padding: 10px;
+            text-align: center;
+            margin-top: px;
+            color: white;}
+
+        nav a{
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover{
+            color: rgb(43, 34, 146);
+        }
+
+        body{
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+
+        /* OFERTAS */
+
+        .ofertas{
+            padding: 60px;
+            background-color: white;
+            text-align: center;
+        }
+
+        .ofertas h2{
+            font-size: 40px;
+            margin-bottom: 15px;
+        }
+
+        .ofertas p{
+            margin-bottom: 30px;
+            font-size: 18px;
+        }
+
+        .contenedor-ofertas{
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        .producto-oferta{
+            background-color: #f5f5f5;
+            width: 280px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+            transition: transform 0.3s;
+        }
+
+        .producto-oferta img{
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .producto-oferta h3{
+            margin-top: 15px;
+        }
+
+        .precio-antiguo{
+            text-decoration: line-through;
+            color: gray;
+            font-size: 18px;
+        }
+
+        .precio-oferta{
+            color: red;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .descuento{
+            display: inline-block;
+            background-color: red;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        button{
+            background-color: black;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover{
+            background-color: gray;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <header>
+        <h1>Zapatillas Urbanas</h1>
+        <p>Moda, estilo y comodidad</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Inicio</a> |
+        <a href="catálogo.html">Catálogo</a> |
+        <a href="ofertas.html">Ofertas</a> |
+        <a href="contacto.html">Contacto</a>
+    </nav>
+
+    <!-- OFERTAS -->
+
+    <section class="ofertas">
+
+        <h2>Ofertas Especiales</h2>
+
+        <p>
+            Aprovecha nuestros descuentos exclusivos por tiempo limitado.
+        </p>
+
+        <div class="contenedor-ofertas">
+
+            <!-- OFERTA 1 -->
+
+            <div class="producto-oferta">
+
+                <img src="img/zapatilla 1.jpg"
+                alt="Zapatilla Negra">
+
+                <h3>Zapatilla Urbana Negra</h3>
+
+                <p class="precio-antiguo">S/ 350.00</p>
+
+                <p class="precio-oferta">S/ 280.00</p>
+
+                <span class="descuento">20% OFF</span>
+
+                <br><br>
+
+                <button>Comprar</button>
+
+            </div>
+
+            <!-- OFERTA 2 -->
+
+            <div class="producto-oferta">
+
+                <img src="img/zapatilla 2.png"
+                alt="Zapatilla Blanca">
+
+                <h3>Zapatilla Casual Blanca</h3>
+
+                <p class="precio-antiguo">S/ 220.90</p>
+
+                <p class="precio-oferta">S/ 165.67</p>
+
+                <span class="descuento">25% OFF</span>
+
+                <br><br>
+
+                <button>Comprar</button>
+
+            </div>
+
+            <!-- OFERTA 3 -->
+
+            <div class="producto-oferta">
+
+                <img src="img/zapatilla 3.png"
+                alt="Zapatilla Deportiva">
+
+                <h3>Zapatilla Deportiva</h3>
+
+                <p class="precio-antiguo">S/ 289.90</p>
+
+                <p class="precio-oferta">S/ 202.93</p>
+
+                <span class="descuento">30% OFF</span>
+
+                <br><br>
+
+                <button>Comprar</button>
+
+            </div>
+
+        </div>
+
+    </section>
+        <footer>
+
+        <h3>SÍGUENOS:</h3>
+
+        <p>
+            <img src="img/Facebook.png"
+                 width="20">
+
+            <strong>Facebook:</strong> Zapatillas Urbanas
+
+            &nbsp;&nbsp;&nbsp;
+
+            <img src="img/Instagram.png"
+                 width="20">
+
+            <strong>Instagram:</strong> @zapatillasurbanas
+
+            &nbsp;&nbsp;&nbsp;
+
+            <img src="img/Tiktok.png"
+                 width="20">
+
+            <strong>TikTok:</strong> @zapatillasurbanasOficial
+
+            &nbsp;&nbsp;&nbsp;
+        </p>
+
+        <hr>
+
+        <p>
+            Política de Privacidad
+            &nbsp;&nbsp; | &nbsp;&nbsp;
+            Términos y Condiciones
+        </p>
+
+        <br>
+
+        <p>
+            © 2026 Zapatillas Urbanas
+        </p>
+
+    </footer>
+
+</body>
+</html>
